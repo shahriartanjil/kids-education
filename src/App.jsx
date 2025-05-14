@@ -1,6 +1,7 @@
 import Navbar from "./components/shared/navbar"
 import Hero from "./components/hero/hero"
 import StandardCurriculum from "./components/StandardCurriculum"
+import OurStories from "./components/OurStories"
 
 function App() {
 
@@ -9,9 +10,9 @@ function App() {
     <>
       <div>
         <Navbar />
-
         <Hero />
         <StandardCurriculum />
+        <OurStories />
       </div>
 
     </>
