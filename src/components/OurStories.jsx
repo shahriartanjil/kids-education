@@ -41,9 +41,9 @@ const OurStories = () => {
             <h1 className="text-3xl font-bold text-center mb-12">Our Stories</h1>
 
             {/* Main Content Area */}
-            <div className="flex flex-col lg:flex-row gap-8">
+            <div className="flex flex-col lg:flex-row gap-8 w-full">
                 {/* Left Column - Single Featured Story */}
-                <div className="lg:w-2/5">
+                <div className="lg:w-[40%]">
                     <div className="sticky top-4">
 
                         <div className="bg-white p-6 rounded-lg shadow-sm">
@@ -66,7 +66,7 @@ const OurStories = () => {
                 </div>
 
                 {/* Right Column - Other Stories in 2-column Grid */}
-                <div className="lg:w-3/5">
+                <div className="lg:w-[60%]">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         {stories.slice(1).map((story) => (
                             <div key={story.id} className="bg-white p-6 rounded-lg shadow-sm">
@@ -88,7 +88,9 @@ const OurStories = () => {
             </div>
 
             <div className="text-center mt-6 ">
-                <button className=" text-white bg-black h-10 rounded-2xl">View All</button>
+            <button className=" bg-black text-white font-semibold px-8 py-3 rounded-md text-lg transition-colors duration-300 transform hover:scale-105">
+            View All
+          </button>
             </div>
         </section>
     );
