@@ -2,7 +2,7 @@ import React from 'react';
 
 const footer = () => {
     return (
-        <div>
+        <div className=''>
             <footer className="footer sm:footer-horizontal bg-sky-400  p-30">
                 <nav>
                     <div className="flex gap-2">
