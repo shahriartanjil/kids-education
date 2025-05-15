@@ -3,8 +3,11 @@ import Hero from "./components/hero/hero"
 import StandardCurriculum from "./components/StandardCurriculum"
 import OurStories from "./components/OurStories"
 import Footer from "./components/shared/Footer"
-// import About from "./components/about/About"
- 
+
+// import AboutSection from "./components/about/About"
+// import FacilitiesSection from "./components/facilities/Facilities"
+
+
 
 
 function App() {
@@ -18,9 +21,11 @@ function App() {
         <StandardCurriculum />
         <OurStories />
         <Footer />
-        {/* <About /> */}
         
-        
+        {/* <AboutSection />
+        <FacilitiesSection /> */}
+
+
       </div>
 
     </>
