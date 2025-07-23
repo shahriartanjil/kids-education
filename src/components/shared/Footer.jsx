@@ -59,7 +59,7 @@ const footer = () => {
                 </nav>
                 
             </footer>
-            <p>Copyright © {new Date().getFullYear()} - Muhammad Shahriar Hasan</p>
+            <p>Copyright © {new Date().getFullYear()} - Shakil Hossen Shawon</p>
         </div>
     );
 }

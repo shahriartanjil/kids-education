@@ -4,9 +4,10 @@ import StandardCurriculum from "./components/StandardCurriculum"
 import OurStories from "./components/OurStories"
 import Footer from "./components/shared/Footer"
 
+
 // import AboutSection from "./components/about/About"
 // import FacilitiesSection from "./components/facilities/Facilities"
-
+// import AdmissionsSection from "./components/admission/AdmissionSection"
 
 
 
@@ -21,9 +22,10 @@ function App() {
         <StandardCurriculum />
         <OurStories />
         <Footer />
-        
+
         {/* <AboutSection />
-        <FacilitiesSection /> */}
+        <FacilitiesSection />
+        <AdmissionsSection /> */}
 
 
       </div>
